@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:cursive;
+
+}
+
+
+main {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+main span{
+    color:brown;
+
+}
+span{
+    position: relative;
+    font-size:5rem;
+    display:flex;
+    align-items: center;
+}
+h1{
+    font-size:4rem;
+}
+
+span::after{
+    content:' ';
+    position:absolute;
+    right:0;
+    height:100px;
+    width:4px;
+    background-color: red;
+}
+
